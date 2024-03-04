@@ -8,6 +8,7 @@ I started from these hyprland, swww, swaylock, waybar, wlogout and sddm configs 
 The main theme I use is called [catppuccin](https://github.com/catppuccin/catppuccin), I like it blurry.
 
 The tmux and neovim configs were both inspired by [dreamsofcode](https://www.youtube.com/watch?v=DzNmUNvnB04). I highly recommend his videos if you are wanting to switch from windows to linux.
+I started out with [nvchad](https://nvchad.com/).
 
 
 ### neofetch
