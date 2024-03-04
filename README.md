@@ -1,11 +1,11 @@
 # Hayden's dotfiles
 My dotfiles for Linux, MacOS, and my Windows configuartion
 
-## Arch Themes:
+## Arch Gallery:
 Huge shoutout to prasanthrangan and all the contribuitors to [hyprdots](https://github.com/prasanthrangan/hyprdots), my hyprland config was inspired from them.
 I started from these hyprland, swww, swaylock, waybar, wlogout and sddm configs and tweaked them to my liking.
 
-The main theme I use is called [catppuccin](https://github.com/catppuccin/catppuccin).
+The main theme I use is called [catppuccin](https://github.com/catppuccin/catppuccin), I like it blurry.
 
 The tmux and neovim configs were both inspired by [dreamsofcode](https://www.youtube.com/watch?v=DzNmUNvnB04). I highly recomend his videos if you are wanting to switch from windows to linux.
 
@@ -13,22 +13,23 @@ The tmux and neovim configs were both inspired by [dreamsofcode](https://www.you
 ### neofetch
 <img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/archNeofetch.png"/>
 
-### nvim
-<img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/archVim.png"/>
+### custom nvim welcome screen
+<img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/customNvimWelcome.png"/>
 
-### spotify-player
-<img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/archSpotify.png"/>
+### example dev workflow (web)
+<img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/webWorkEnv.png"/>
 
-I use this terminal spotify player [spotify-player](https://github.com/aome510/spotify-player)
+### btop
+<img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/btop.png"/>
 
-## MacOS Themes:
+## MacOS Gallery:
 ### nvim
 <img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/nvimDemo.png"/>
 
 ### tmux
 <img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/tmuxDemo.png"/>
 
-## Windows Themes:
+## Windows Gallery:
 ### Windows Terminal / Powershell
 <img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/powershellDemo.png"/>
 
