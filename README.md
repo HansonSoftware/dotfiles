@@ -19,6 +19,8 @@ The tmux and neovim configs were both inspired by [dreamsofcode](https://www.you
 ### spotify-player
 <img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/archSpotify.png"/>
 
+I use this terminal spotify player [spotify-player](https://github.com/aome510/spotify-player)
+
 ## MacOS Themes:
 ### nvim
 <img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/nvimDemo.png"/>
