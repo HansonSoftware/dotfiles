@@ -182,9 +182,30 @@ return {
 			vim.list_extend(ensure_installed, {
 				"stylua", -- Used to format Lua code
 			})
-			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
+			require("mason-tool-installer").setup({
+				ensure_installed = {
+					"prettier", -- prettier formatter
+					"stylua", -- lua formatter
+					"eslint_d",
+				},
+			})
 
 			require("mason-lspconfig").setup({
+				-- list of servers for mason to install
+				ensure_installed = {
+					"tsserver",
+					"html",
+					"cssls",
+					"tailwindcss",
+					"svelte",
+					"lua_ls",
+					"graphql",
+					"gopls",
+					"emmet_ls",
+					"prismals",
+					"pyright",
+				},
+
 				handlers = {
 					function(server_name)
 						local server = servers[server_name] or {}
