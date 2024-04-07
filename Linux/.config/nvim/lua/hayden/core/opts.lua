@@ -1,9 +1,16 @@
 -- [[ Setting options ]]
 -- See `:help vim.opt`
 
+vim.cmd("set expandtab")
+vim.cmd("set tabstop=2")
+vim.cmd("set shiftwidth=2")
+
+vim.opt.swapfile = false
+
 -- Tell vim we have a Nerd Font installed
 vim.g.have_nerd_font = true
 
+vim.opt.termguicolors = true
 -- Hybrid line numbers
 vim.opt.number = true
 vim.opt.relativenumber = true
