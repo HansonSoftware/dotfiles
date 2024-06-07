@@ -12,10 +12,6 @@ require("lazy").setup({
 	{ import = "hayden.plugins" },
 	{ import = "hayden.plugins.lsp" },
 
-	checker = {
-		enabled = true,
-		notify = false,
-	},
 	change_detection = {
 		notify = false,
 	},
