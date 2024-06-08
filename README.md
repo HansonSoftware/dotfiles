@@ -1,14 +1,11 @@
 # Hayden's dotfiles
 
-My dotfiles for Arch Linux and MacOS
-
-## Gallery:
+My dotfiles for Arch Linux and MacOS.
 
 Huge shoutout to [hyprdots](https://github.com/prasanthrangan/hyprdots) and [dreamsofcode](https://www.youtube.com/watch?v=DzNmUNvnB04) for inspiration and a solid starting point.
 
+## Gallery:
 The main theme I use is called [catppuccin](https://github.com/catppuccin/catppuccin).
-
-### neofetch
 
 <img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/archNeofetch.png"/>
 
@@ -16,7 +13,7 @@ The main theme I use is called [catppuccin](https://github.com/catppuccin/catppu
 
 <img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/customNvimWelcome.png"/>
 
-### example dev workflow (web)
+### example web dev workflow
 
 <img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/webWorkEnv.png"/>
 
