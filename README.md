@@ -7,16 +7,16 @@ Huge shoutout to [hyprdots](https://github.com/prasanthrangan/hyprdots) and [dre
 ## Gallery:
 The main theme I use is called [catppuccin](https://github.com/catppuccin/catppuccin).
 
-<img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/archNeofetch.png"/>
+<img src="https://haydenhanson.dev/images/gallery/archNeofetch.png"/>
 
 ### custom welcome screen
 
-<img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/customNvimWelcome.png"/>
+<img src="https://haydenhanson.dev/images/gallery/customNvimWelcome.png"/>
 
 ### example web dev workflow
 
-<img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/webWorkEnv.png"/>
+<img src="https://haydenhanson.dev/images/gallery/webWorkEnv.png"/>
 
 ### btop
 
-<img src="https://github.com/HansonSoftware/dotfiles/blob/main/Gallery/btop.png"/>
+<img src="https://haydenhanson.dev/images/gallery/btop.png"/>
