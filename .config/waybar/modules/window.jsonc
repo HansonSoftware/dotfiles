@@ -1,0 +1,16 @@
+    "hyprland/window": {
+        "format": " {}",
+        "separate-outputs": true,
+        "rewrite": {
+            "(.*)~(.*)": "",
+            "(.*)tmux attach": "",
+            "(.*)vim(.*)": "",
+            "(.*) — Mozilla Firefox": "󰈹",
+            "(.*)Mozilla Firefox": "󰈹",
+            "(.*) — Dolphin": "󰉋",
+            "(.*)Spotify": "󰓇",
+            "(.*)Steam": "󰓓"
+        },
+        "max-length": 9
+    },
+
