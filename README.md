@@ -1,11 +1,9 @@
-# Hayden's dotfiles
+# My dotfiles for Arch Linux.
 
-My dotfiles for Arch Linux and MacOS.
-
-Huge shoutout to [hyprdots](https://github.com/prasanthrangan/hyprdots) and [dreamsofcode](https://www.youtube.com/watch?v=DzNmUNvnB04) for inspiration and a solid starting point.
+> Huge shoutout to the [hyprdots](https://github.com/prasanthrangan/hyprdots) team and [dreamsofcode](https://www.youtube.com/watch?v=DzNmUNvnB04) for inspiration and a solid starting point.
 
 ## Gallery:
-The main theme I use is called [catppuccin](https://github.com/catppuccin/catppuccin).
+The main theme I use is called [catppuccin](https://github.com/catppuccin/catppuccin) mocha.
 
 <img src="https://haydenhanson.dev/images/gallery/archNeofetch.png"/>
 
