@@ -22,7 +22,7 @@
 // sourced from modules based on config.ctl //
 
     "custom/power": {
-        "format": "",
+        "format": " ",
         "exec": "echo ; echo  logout",
         "on-click": "~/.config/hypr/scripts/logoutlaunch.sh 2",
         "interval" : 86400, // once every day
@@ -57,15 +57,16 @@
         "separate-outputs": true,
         "rewrite": {
             "(.*)~(.*)": "",
-            "(.*)tmux attach": "",
+            "(.*)tmux(.*)": "",
             "(.*)vim(.*)": "",
+            "(.*)cava(.*)": "",
             "(.*) — Mozilla Firefox": "󰈹",
             "(.*)Mozilla Firefox": "󰈹",
             "(.*) — Dolphin": "󰉋",
             "(.*)Spotify": "󰓇",
             "(.*)Steam": "󰓓"
         },
-        "max-length": 9
+        "max-length": 3
     },
 
     "clock": {

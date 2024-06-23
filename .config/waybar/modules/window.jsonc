@@ -3,14 +3,15 @@
         "separate-outputs": true,
         "rewrite": {
             "(.*)~(.*)": "",
-            "(.*)tmux attach": "",
+            "(.*)tmux(.*)": "",
             "(.*)vim(.*)": "",
+            "(.*)cava(.*)": "",
             "(.*) — Mozilla Firefox": "󰈹",
             "(.*)Mozilla Firefox": "󰈹",
             "(.*) — Dolphin": "󰉋",
             "(.*)Spotify": "󰓇",
             "(.*)Steam": "󰓓"
         },
-        "max-length": 9
+        "max-length": 10
     },
 
