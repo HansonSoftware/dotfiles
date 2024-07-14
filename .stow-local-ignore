@@ -1,0 +1,14 @@
+\.git
+\.gitignore
+\.gitmodules
+
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+# Ignore specific configs
+/Desktop
+
+/ThinkPad
+
+/MacOS
