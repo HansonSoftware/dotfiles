@@ -7,7 +7,7 @@
 ^/COPYING
 
 # Ignore specific configs
-/Desktop
+/PC
 
 /ThinkPad
 
