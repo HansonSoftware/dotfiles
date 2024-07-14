@@ -2,6 +2,8 @@
 
 After cloning, just run `stow .`
 
+> Learn more about GNU stow [here](https://www.gnu.org/software/stow/).
+
 | Program              | Desktop                         | ThinkPad                        | M1 MB Pro  |
 | -------------------- | ------------------------------- | ------------------------------- | ---------- |
 | OS                   | Arch Linux                      | Arch Linux                      | macOS      |
