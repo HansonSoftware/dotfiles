@@ -1,6 +1,6 @@
 # Hayden's Dots
 
-After cloning, just run `stow .`
+After cloning, just run `stow .` from this repo.
 
 > Learn more about GNU stow [here](https://www.gnu.org/software/stow/).
 
