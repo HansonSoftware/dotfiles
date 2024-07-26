@@ -137,5 +137,10 @@ function in {
 # Cargo path for rust
 export PATH=$PATH:~/.cargo/bin
 
-# ThinkPad Haskell
+# Variables for Alacritty
+export TERM='xterm-256color'
+export EDITOR='nvim'
+export VISUAL='nvim'
+
+# Haskell
 #[ -f "/home/hayden/.ghcup/env" ] && source "/home/hayden/.ghcup/env" # ghcup-env
