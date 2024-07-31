@@ -4,12 +4,12 @@ After cloning, just run `stow .` from this repo.
 
 > Learn more about GNU stow [here](https://www.gnu.org/software/stow/).
 
-| Program              | Desktop                         | ThinkPad                        | M1 MB Pro  |
+| Program              | ThinkPad                        | Desktop                         | M1 MB Pro  |
 | -------------------- | ------------------------------- | ------------------------------- | ---------- |
 | OS                   | Arch Linux                      | Arch Linux                      | macOS      |
-| Desktop Environment  | Hyprland (Wayland)              | -                               | -          |
-| Window Manager       | -                               | dwm                             | yabai      |
-| Bar                  | Waybar                          | dwmblocks                       | sketchybar |
+| Desktop Environment  | Hyprland (Wayland)              | [WIP]                           | -          |
+| Window Manager       | -                               | -                               | yabai      |
+| Bar                  | Waybar                          | -                               | sketchybar |
 | File Manager         | yazi                            | yazi                            | yazi       |
 | Terminal Emulator    | Alacritty                       | Alacritty                       | Alacritty  |
 | Terminal Multiplexer | tmux                            | tmux                            | tmux       |
@@ -19,28 +19,6 @@ After cloning, just run `stow .` from this repo.
 | RSS Feed Reader      | newsboat                        | newsboat                        | newsboat   |
 | Browser 1            | Librewolf with Arkenfox user.js | Librewolf with Arkenfox user.js | -          |
 | Browser 2            | brave                           | brave                           | brave      |
-
-TODO:
-
-- neomutt
-- newsboat
-- cava
-- Librewolf
-
-/PC/
-
-- hyprland
-- waybar
-
-/ThinkPad/
-
-- dwm
-- dwmblocks
-
-/MacOS/
-
-- yabai
-- sketchybar
 
 ### Shoutout to my inspriration:
 
