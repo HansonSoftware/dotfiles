@@ -98,9 +98,6 @@ alias .5='cd ../../../../..'
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 alias mkdir='mkdir -p'
 
-# Fixes "Error opening terminal: xterm-kitty" when using the default kitty term to open some programs through ssh
-alias ssh='kitten ssh'
-
 # Always use NeoVim
 alias vim="nvim"
 
