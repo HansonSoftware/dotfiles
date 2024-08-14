@@ -134,7 +134,7 @@ function in {
 # Cargo path for rust
 export PATH=$PATH:~/.cargo/bin
 
-# Variables for Alacritty
+# App Variables for Alacritty & Yazi
 export TERM='xterm-256color'
 export EDITOR='nvim'
 export VISUAL='nvim'
