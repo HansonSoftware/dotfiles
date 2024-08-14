@@ -133,6 +133,7 @@ function in {
 
 # Cargo path for rust
 export PATH=$PATH:~/.cargo/bin
+export PATH=$PATH:~/go/bin
 
 # App Variables for Alacritty & Yazi
 export TERM='xterm-256color'
