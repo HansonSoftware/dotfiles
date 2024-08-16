@@ -20,14 +20,23 @@ ln -s ~/dotfiles/ThinkPad/.config/waybar ~/.config/waybar
 
 ## Programs
 **File Manager:** yazi, dolphin       
+
 **Terminal Emulator:** Alacritty   
+
 **Terminal Multiplexer:** tmux      
+
 **Shell:** zsh      
-**Text Editor:** nvim      
+
+**Text Editor:** nvim 
+
 **Git TUI:** lazygit
+
 **Email Client:** neomutt      
+
 **RSS Feed Reader:** newsboat  
+
 **Browser:** brave   
+
 **+ More:** fzf
 
 ### Shoutout to my inspriration(s):
