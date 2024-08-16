@@ -2,7 +2,7 @@
 
 After cloning, just run `stow .` from this repo to copy the shared configurations (alacritty, nvim, etc...)
 
-For specific configurations, like Desktop or ThinkPad, synbolic links are manually configured like so:
+For specific configurations symbolic links are manually configured like so:
 
 ```sh
 ln -s ~/dotfiles/ThinkPad/.config/waybar ~/.config/waybar
@@ -12,21 +12,19 @@ ln -s ~/dotfiles/ThinkPad/.config/waybar ~/.config/waybar
 
 ## Overview
 
-| Program              | ThinkPad                        | Desktop                         | M1 MB Pro  |
-| -------------------- | ------------------------------- | ------------------------------- | ---------- |
-| OS                   | Arch Linux                      | Arch Linux                      | macOS      |
-| Desktop Environment  | -                               | KDE Plasma 6                    | aqua       |
-| Window Manager       | Hyprland (Wayland)              | Kwin                            | yabai      |
-| Bar                  | Waybar                          | -                               | sketchybar |
-| File Manager         | yazi                            | yazi                            | yazi       |
-| Terminal Emulator    | Alacritty                       | Alacritty                       | Alacritty  |
-| Terminal Multiplexer | tmux                            | tmux                            | tmux       |
-| Shell                | zsh                             | zsh                             | zsh        |
-| Text Editor          | nvim                            | nvim                            | nvim       |
-| Email Client         | neomutt                         | neomutt                         | neomutt    |
-| RSS Feed Reader      | newsboat                        | newsboat                        | newsboat   |
-| Browser 1            | brave                           | brave                           | brave      |
-| Browser 2            | Librewolf with Arkenfox user.js | Librewolf with Arkenfox user.js | -          |
+| Program              | ThinkPad           | Desktop      | M1 MB Pro  |
+| -------------------- | ------------------ | ------------ | ---------- |
+| OS                   | Arch Linux         | Arch Linux   | macOS      |
+| DE/WM                | Hyprland (Wayland) | KDE Plasma 6 | Aerospace  |
+| Bar                  | Waybar             | Default      | sketchybar |
+| File Manager         | yazi               | yazi         | yazi       |
+| Terminal Emulator    | Alacritty          | Alacritty    | Alacritty  |
+| Terminal Multiplexer | tmux               | tmux         | tmux       |
+| Shell                | zsh                | zsh          | zsh        |
+| Text Editor          | nvim               | nvim         | nvim       |
+| Email Client         | neomutt            | neomutt      | neomutt    |
+| RSS Feed Reader      | newsboat           | newsboat     | newsboat   |
+| Browser              | brave              | brave        | brave      |
 
 ### Shoutout to my inspriration(s):
 
@@ -60,3 +58,7 @@ The main theme I use is called [catppuccin](https://github.com/catppuccin/catppu
 <img src="https://haydenhanson.dev/images/gallery/thinkpad_workspace3.png"/>
 
 <img src="https://haydenhanson.dev/images/gallery/thinkpad_workspace4.png"/>
+
+## MacOS
+
+<img src="https://haydenhanson.dev/images/gallery/macos_workspace2.png"/>
