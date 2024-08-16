@@ -14,17 +14,21 @@ ln -s ~/dotfiles/ThinkPad/.config/waybar ~/.config/waybar
 
 | Program              | ThinkPad           | Desktop      | M1 MB Pro  |
 | -------------------- | ------------------ | ------------ | ---------- |
-| OS                   | Arch Linux         | Arch Linux   | macOS      |
+| OS                   | Arch Linux         | Arch Linux   | MacOS      |
 | DE/WM                | Hyprland (Wayland) | KDE Plasma 6 | Aerospace  |
 | Bar                  | Waybar             | Default      | sketchybar |
-| File Manager         | yazi               | yazi         | yazi       |
-| Terminal Emulator    | Alacritty          | Alacritty    | Alacritty  |
-| Terminal Multiplexer | tmux               | tmux         | tmux       |
-| Shell                | zsh                | zsh          | zsh        |
-| Text Editor          | nvim               | nvim         | nvim       |
-| Email Client         | neomutt            | neomutt      | neomutt    |
-| RSS Feed Reader      | newsboat           | newsboat     | newsboat   |
-| Browser              | brave              | brave        | brave      |
+
+## Programs
+**File Manager:** yazi, dolphin       
+**Terminal Emulator:** Alacritty   
+**Terminal Multiplexer:** tmux      
+**Shell:** zsh      
+**Text Editor:** nvim      
+**Git TUI:** lazygit
+**Email Client:** neomutt      
+**RSS Feed Reader:** newsboat  
+**Browser:** brave   
+**+ More:** fzf
 
 ### Shoutout to my inspriration(s):
 
