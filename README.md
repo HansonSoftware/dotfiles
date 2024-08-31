@@ -52,6 +52,12 @@ The main theme I use is called [catppuccin](https://github.com/catppuccin/catppu
 
 ## Desktop
 
+### KDE
+
+![Desktop GIF](https://www.haydenhanson.dev/images/gallery/desktop.gif)
+
+### Hyprland
+
 <img src="https://haydenhanson.dev/images/gallery/archNeofetch.png"/>
 
 <img src="https://haydenhanson.dev/images/gallery/customNvimWelcome.png"/>
