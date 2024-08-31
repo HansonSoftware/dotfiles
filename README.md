@@ -52,6 +52,8 @@ The main theme I use is called [catppuccin](https://github.com/catppuccin/catppu
 
 ## Desktop
 
+> Ryzen 7 5800x, 3060TI, 32GB RAM
+
 ### KDE
 
 ![Desktop GIF](https://www.haydenhanson.dev/images/gallery/desktop.gif)
