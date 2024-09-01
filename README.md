@@ -12,39 +12,33 @@ ln -s ~/dotfiles/ThinkPad/.config/waybar ~/.config/waybar
 
 ## Overview
 
-| Program              | ThinkPad           | Desktop      | M1 MB Pro  |
-| -------------------- | ------------------ | ------------ | ---------- |
-| OS                   | Arch Linux         | Arch Linux   | MacOS      |
-| DE/WM                | Hyprland (Wayland) | KDE Plasma 6 | Aerospace  |
-| Bar                  | Waybar             | Default      | sketchybar |
+| Program | ThinkPad           | Desktop      | M1 MB Pro  |
+| ------- | ------------------ | ------------ | ---------- |
+| OS      | Arch Linux         | Arch Linux   | MacOS      |
+| DE/WM   | Hyprland (Wayland) | KDE Plasma 6 | Aerospace  |
+| Bar     | Waybar             | Default      | sketchybar |
 
 ## Programs
-**File Manager:** yazi, dolphin       
 
-**Terminal Emulator:** Alacritty   
+**File Manager:** yazi, dolphin
 
-**Terminal Multiplexer:** tmux      
+**Terminal Emulator:** Alacritty
 
-**Shell:** zsh      
+**Terminal Multiplexer:** tmux
 
-**Text Editor:** nvim 
+**Shell:** zsh
+
+**Text Editor:** nvim
 
 **Git TUI:** lazygit
 
-**Email Client:** neomutt      
+**Email Client:** neomutt
 
-**RSS Feed Reader:** newsboat  
+**RSS Feed Reader:** newsboat
 
-**Browser:** brave   
+**Browser:** brave
 
 **+ More:** fzf
-
-### Shoutout to my inspriration(s):
-
-- [hyprdots](https://github.com/prasanthrangan/hyprdots) - Hyprland/Waybar scripts
-- [dreamsofcode](https://www.youtube.com/watch?v=DzNmUNvnB04) - Zenful tmux config
-- [LARBS](https://larbs.xyz/) - DWM and other suckless programs, very lightweight
-- [Josean's Macbook](https://github.com/josean-dev/dev-environment-files/) - Makes my mac feel more like home when I have to use it
 
 # Photo Gallery:
 
@@ -52,11 +46,16 @@ The main theme I use is called [catppuccin](https://github.com/catppuccin/catppu
 
 ## Desktop
 
-> Ryzen 7 5800x, 3060TI, 32GB RAM
+OS: Arch Linux x86_64
+Host: B450M Steel Legend
+Kernel: 6.10.6-arch1-1
+CPU: AMD Ryzen 7 5700X (16) @ 3.400GHz
+GPU: NVIDIA GeForce RTX 3060 Ti GDDR6X
+Memory: 32020MiB
 
 ### KDE
 
-![Desktop GIF](https://www.haydenhanson.dev/images/gallery/desktop.gif)
+<img src ="https://www.haydenhanson.dev/images/gallery/desktop.gif" width="1920px"/>
 
 ### Hyprland
 
@@ -83,3 +82,10 @@ The main theme I use is called [catppuccin](https://github.com/catppuccin/catppu
 ## MacOS
 
 <img src="https://haydenhanson.dev/images/gallery/macos_workspace2.png"/>
+
+### Shoutout to my inspriration(s):
+
+- [hyprdots](https://github.com/prasanthrangan/hyprdots) - Hyprland/Waybar scripts
+- [dreamsofcode](https://www.youtube.com/watch?v=DzNmUNvnB04) - Zenful tmux config
+- [LARBS](https://larbs.xyz/) - DWM and other suckless programs, very lightweight
+- [Josean's Macbook](https://github.com/josean-dev/dev-environment-files/) - Makes my mac feel more like home when I have to use it
