@@ -46,16 +46,21 @@ The main theme I use is called [catppuccin](https://github.com/catppuccin/catppu
 
 ## Desktop
 
-OS: Arch Linux x86_64
-Host: B450M Steel Legend
-Kernel: 6.10.6-arch1-1
-CPU: AMD Ryzen 7 5700X (16) @ 3.400GHz
-GPU: NVIDIA GeForce RTX 3060 Ti GDDR6X
-Memory: 32020MiB
+**OS:** Arch Linux x86_64
+
+**Motherboard:** B450M Steel Legend
+
+**Kernel:** 6.10.6-arch1-1
+
+**CPU:** AMD Ryzen 7 5700X (16) @ 3.400GHz
+
+**GPU:** NVIDIA GeForce RTX 3060 Ti GDDR6X
+
+**Memory:** 32020MiB DDR4 3200 MHz
 
 ### KDE
 
-<img src ="https://www.haydenhanson.dev/images/gallery/desktop.gif" width="1920px"/>
+<img src ="https://www.haydenhanson.dev/images/gallery/desktop.gif"/>
 
 ### Hyprland
 
