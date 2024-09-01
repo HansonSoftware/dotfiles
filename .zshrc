@@ -142,3 +142,6 @@ export VISUAL='nvim'
 
 # Haskell
 #[ -f "/home/hayden/.ghcup/env" ] && source "/home/hayden/.ghcup/env" # ghcup-env
+
+# To customize prompt, run `p10k configure` or edit ~/dotfiles/.p10k.zsh.
+[[ ! -f ~/dotfiles/.p10k.zsh ]] || source ~/dotfiles/.p10k.zsh
