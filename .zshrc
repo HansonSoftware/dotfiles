@@ -139,6 +139,7 @@ export PATH=$PATH:~/go/bin
 export TERM='xterm-256color'
 export EDITOR='nvim'
 export VISUAL='nvim'
+export MANPAGER='nvim +Man!'
 
 # Haskell
 #[ -f "/home/hayden/.ghcup/env" ] && source "/home/hayden/.ghcup/env" # ghcup-env
