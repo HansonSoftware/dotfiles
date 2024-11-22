@@ -107,7 +107,7 @@
   typeset -g POWERLEVEL9K_CONTEXT_ROOT_TEMPLATE="%F{$white}%n%f%F{$grey}@%m%f"
   # Context format when not root: user@host. The whole thing grey.
   #typeset -g POWERLEVEL9K_CONTEXT_TEMPLATE="%F{$grey}%n@%m%f"
-  typeset -g POWERLEVEL9K_CONTEXT_TEMPLATE="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[magenta]%}%{$fg[red]%}]%{$reset_color%}%b"
+  typeset -g POWERLEVEL9K_CONTEXT_TEMPLATE="%B%{$fg[green]%}\$ %{$fg[yellow]%}M1%{$fg[magenta]%}%{$reset_color%}%b"
   # Don't show context unless root or in SSH.
   # typeset -g POWERLEVEL9K_CONTEXT_{DEFAULT,SUDO}_CONTENT_EXPANSION=
 
