@@ -1,11 +1,6 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Enable Powerlevel10k instant prompt.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-# Only for my mac
-if [[ -f "/opt/homebrew/bin/brew" ]] then
-  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
@@ -70,38 +65,29 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+#
+# Shell integrations
+eval "$(fzf --zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
 # Aliases
 alias c='clear'
 alias f='yazi'
-alias  l='eza -lh  --icons=auto' # long list
+alias l='eza -lh  --icons=auto' # long list
 alias ls='eza -G   --icons=auto' # short list
 alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
 alias ld='eza -lhD --icons=auto' # long list dirs
-alias un='$aurhelper -Rns' # uninstall package
-alias up='$aurhelper -Syu' # update system/package/aur
-alias pl='$aurhelper -Qs' # list installed package
-alias pa='$aurhelper -Ss' # list availabe package
-alias pc='$aurhelper -Sc' # remove unused cache
-alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
-
-# Handy change dir shortcuts
 alias ..='cd ..'
 alias ...='cd ../..'
 alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
-
 alias mkdir='mkdir -p'
 alias vim="nvim"
 alias python="python3"
 alias spotify="spotify_player"
 alias clisp="clisp -q"
 alias sbcl="rlwrap sbcl"
-
-# Shell integrations
-eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
 
 # Pacman helpers
 if pacman -Qi yay &>/dev/null ; then
@@ -118,6 +104,14 @@ function in {
         "$aurhelper" -S "$pkg"
     fi
 }
+
+# Pacman aliases
+alias un='$aurhelper -Rns' # uninstall package
+alias up='$aurhelper -Syu' # update system/package/aur
+alias pl='$aurhelper -Qs' # list installed package
+alias pa='$aurhelper -Ss' # list availabe package
+alias pc='$aurhelper -Sc' # remove unused cache
+alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
 
 # ENV Variables
 export TERM='xterm-256color'
