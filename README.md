@@ -2,7 +2,11 @@
 
 My dotfiles are managed with [GNU stow](https://www.gnu.org/software/stow/), by cloning this repo and running `stow .` my system is mostly ready to go!
 
-This branch (main) is used for my Desktop Arch Machine.
+Branch [main](https://github.com/HansonSoftware/dotfiles) (this branch) is used for a Desktop Arch Machine.
+
+Branch [ThinkPad](https://github.com/HansonSoftware/dotfiles/tree/ThinkPad) is used for a T480 Thinkpad running Arch Linux.
+
+Branch [macos](https://github.com/HansonSoftware/dotfiles/tree/macos) is used for an M1 Macbook Pro.
 
 ## Overview
 
