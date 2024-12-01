@@ -64,16 +64,6 @@ return {
 				"trouble",
 			},
 			sections = {
-				lualine_a = {
-					{
-						filetype_names = {
-							TelescopePrompt = "Telescope",
-							dashboard = "Dashboard",
-							fzf = "FZF",
-							alpha = "Alpha",
-						},
-					},
-				},
 				lualine_x = {
 					{
 						lazy_status.updates,
