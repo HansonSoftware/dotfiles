@@ -72,7 +72,6 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # Aliases
 alias c='clear'
-alias f='yazi'
 alias l='eza -lh  --icons=auto' # long list
 alias ls='eza -G   --icons=auto' # short list
 alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
@@ -83,11 +82,26 @@ alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 alias mkdir='mkdir -p'
+
+alias f="spf"
 alias vim="nvim"
-alias python="python3"
 alias spotify="spotify_player"
+
+alias python="python3"
 alias clisp="clisp -q"
 alias sbcl="rlwrap sbcl"
+
+# Git
+alias gs="git status --short"
+alias ga="git add"
+alias gap="git add --patch"
+alias gc="git commit"
+alias gp="git push"
+alias gP="git push"
+alias gl='git log --graph --all --pretty=format:"%C(magenta)%h %C(white) %an  %ar%C(blue)  %D%n%s%n"'
+alias gb="git branch"
+alias gi="git init"
+alias gcl="git clone"
 
 # Pacman helpers
 if pacman -Qi yay &>/dev/null ; then
