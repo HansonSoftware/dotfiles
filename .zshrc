@@ -75,6 +75,14 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
+autoload -Uz add-zsh-hook
+
+function chpwd() {
+  # Your commands go here
+  # For example, automatically list files in the new directory
+  ls -F
+}
+
 # Aliases
 alias c='clear'
 alias f='yazi'
