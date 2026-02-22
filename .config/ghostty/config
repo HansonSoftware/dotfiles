@@ -1,0 +1,33 @@
+## ghostty +show-config --default --docs
+
+font-family = JetBrains Mono
+font-family-bold               = JetBrains Mono
+font-family-italic             = JetBrains Mono
+font-family-bold-italic        = JetBrains Mono
+
+# font-feature                   = calt
+# font-feature                   = liga
+# font-feature                   = ss13
+
+font-size = 24
+window-inherit-font-size       = true
+
+# Look and Feel
+adjust-cursor-thickness        = 3
+adjust-underline-position      = 3
+bold-is-bright                 = true
+cursor-invert-fg-bg            = true
+cursor-opacity                 = 0.8
+link-url                       = true
+mouse-hide-while-typing        = true
+# ghostty +list-themes
+theme = Rose Pine
+window-vsync                   = true
+background-opacity = 1
+fullscreen = true
+window-padding-y = 10, 0
+macos-icon = xray
+# macos-non-native-fullscreen = true
+
+# Keys
+macos-option-as-alt = true
