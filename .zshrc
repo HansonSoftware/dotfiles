@@ -65,10 +65,6 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 autoload -Uz add-zsh-hook
 
-function chpwd() {
-  ls
-}
-
 # Aliases
 alias c='clear'
 alias f='yazi'
@@ -83,10 +79,16 @@ alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 alias mkdir='mkdir -p'
 alias vim="nvim"
+alias lg="lazygit"
 alias python="python3"
 alias spotify="spotify_player"
 alias clisp="clisp -q"
 alias sbcl="rlwrap sbcl"
+
+# Run ls automatically when changing directory
+function chpwd() {
+  ls
+}
 
 # PATH Variables
 export PATH=$PATH:~/.cargo/bin
