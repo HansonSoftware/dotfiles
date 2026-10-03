@@ -1,0 +1,183 @@
+# https://editorconfig.org
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+charset = utf-8
+
+[*.vim]
+indent_size = 2
+
+[*.lua]
+indent_size = 2
+
+[*.json]
+indent_size = 2
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{xml,csproj,props,targets}]
+indent_size = 2
+
+[*.cs]
+
+# Ideas:
+# csharp_new_line_before_open_brace = accessors, anonymous_methods, anonymous_types, control_blocks, events, indexers, local_functions, methods, properties, types
+# csharp_new_line_before_else                           = true
+# csharp_new_line_before_catch                          = true
+# csharp_new_line_before_finally                        = true
+# csharp_new_line_before_members_in_object_initializers = true
+# csharp_new_line_before_members_in_anonymous_types     = true
+# csharp_new_line_between_query_expression_clauses      = true
+
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+dotnet_sort_system_directives_first = true
+
+# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/
+# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
+# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-options#severity-level
+# error, warning, suggestion, silent, none, default
+
+# [SuppressMessage("Diagnostics", "IDE1006"), SuppressMessage("Diagnostics", "IDE0051")]
+# e.g. to place above Unity MonoBehaviour methods like Awake, Start, Update, etc.
+
+# IDE0130: Namespace does not match folder structure
+dotnet_style_namespace_match_folder = false
+# IDE0044: Add readonly modifier
+dotnet_style_readonly_field = false
+# IDE0040: Add accessibility modifiers
+dotnet_style_require_accessibility_modifiers = omit_if_default:warning
+# Remove unnecessary usings
+dotnet_diagnostic.IDE0005.severity = warning
+# IDE0058: Remove unnecessary expression value
+dotnet_diagnostic.IDE0058.severity = suggestion
+# IDE0051: Remove unused private members
+dotnet_diagnostic.IDE0051.severity = warning
+# IDE0052: Remove unread private member
+dotnet_diagnostic.IDE0052.severity = warning
+# IDE0060: Remove unused parameter
+dotnet_code_quality_unused_parameters = all
+dotnet_diagnostic.IDE0060.severity = warning
+# IDE0031: Use null propagation
+dotnet_style_null_propagation = false
+# IDE0090: Simplify `new` expression
+csharp_style_implicit_object_creation_when_type_is_apparent = false
+# IDE0049: Use language keywords instead of framework type names for type references (e.g. "String" vs "string", "Int32" vs "int")
+dotnet_style_predefined_type_for_member_access = false
+dotnet_style_predefined_type_for_locals_parameters_members = true
+dotnet_diagnostic.IDE0049.severity = warning
+# IDE0011: Add braces
+dotnet_diagnostic.IDE0011.severity = warning
+# IDE0010: Add missing cases to switch statement
+dotnet_diagnostic.IDE0010.severity = warning
+# IDE0072: Add missing cases to switch expression
+dotnet_diagnostic.IDE0072.severity = warning
+# IDE0001: Simplify name
+dotnet_diagnostic.IDE0001.severity = suggestion
+# IDE0002: Simplify member access
+dotnet_diagnostic.IDE0002.severity = suggestion
+# IDE0047: Remove unnecessary parentheses
+dotnet_diagnostic.IDE0047.severity = none
+# IDE0047: Remove unnecessary parentheses
+dotnet_diagnostic.IDE0047.severity = none
+# IDE0090: Simplify new expression
+dotnet_diagnostic.IDE0090.severity = none
+# UNT0022: Inefficient method to set position and rotation
+dotnet_diagnostic.UNT0022.severity = warning
+# UNT0013: Invalid or redundant SerializeField attribute
+dotnet_diagnostic.UNT0013.severity = none
+
+# IDE0055: Formatting rule
+# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0055
+dotnet_diagnostic.IDE0055.severity = warning
+
+# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/csharp-formatting-options
+csharp_indent_case_contents_when_block = false
+
+# IDE2000: Avoid multiple blank lines
+# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide2000
+dotnet_diagnostic.IDE2000.severity = warning
+dotnet_style_allow_multiple_blank_lines_experimental = false
+
+# IDE1006: Naming styles (https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/naming-rules#rule-id-ide1006-naming-rule-violation)
+
+# Style: camel case ("myField")
+
+dotnet_naming_style.style_camel_case.capitalization  = camel_case
+dotnet_naming_style.style_camel_case.required_prefix =
+
+dotnet_naming_symbols.symbol_public_fields.applicable_kinds           = field
+dotnet_naming_symbols.symbol_public_fields.applicable_accessibilities = public,protected,internal
+dotnet_naming_rule.public_fields_must_be_camel_case.symbols           = symbol_public_fields
+dotnet_naming_rule.public_fields_must_be_camel_case.style             = style_camel_case
+dotnet_naming_rule.public_fields_must_be_camel_case.severity          = warning
+
+# Style: pascal case ("MyProperty", "MyMethod()")
+
+dotnet_naming_style.style_pascal_case.capitalization  = pascal_case
+dotnet_naming_style.style_pascal_case.required_prefix =
+
+dotnet_naming_symbols.symbol_public_members.applicable_kinds           = property,method,event,delegate
+dotnet_naming_symbols.symbol_public_members.applicable_accessibilities = public,protected,internal
+dotnet_naming_rule.public_symbols_must_be_pascal_case.symbols          = symbol_public_members
+dotnet_naming_rule.public_symbols_must_be_pascal_case.style            = style_pascal_case
+dotnet_naming_rule.public_symbols_must_be_pascal_case.severity         = warning
+
+# Style: constants
+
+dotnet_naming_symbols.symbol_constants.applicable_kinds      = field
+dotnet_naming_symbols.symbol_constants.required_modifiers    = const
+dotnet_naming_rule.const_fields_must_be_pascal_case.symbols  = symbol_constants
+dotnet_naming_rule.const_fields_must_be_pascal_case.style    = style_pascal_case
+dotnet_naming_rule.const_fields_must_be_pascal_case.severity = warning
+
+# Style: camel case with underscore ("_myField")
+
+dotnet_naming_style.style_camel_case_underscore.capitalization  = camel_case
+dotnet_naming_style.style_camel_case_underscore.required_prefix = _
+
+dotnet_naming_symbols.symbol_private_fields.applicable_kinds             = field
+dotnet_naming_symbols.symbol_private_fields.applicable_accessibilities   = private
+dotnet_naming_rule.private_fields_must_be_camel_case_underscore.symbols  = symbol_private_fields
+dotnet_naming_rule.private_fields_must_be_camel_case_underscore.style    = style_camel_case_underscore
+dotnet_naming_rule.private_fields_must_be_camel_case_underscore.severity = warning
+
+# Style: pascal case with underscore ("_MyProperty", "_MyMethod()")
+
+dotnet_naming_style.style_pascal_case_underscore.capitalization  = pascal_case
+dotnet_naming_style.style_pascal_case_underscore.required_prefix = _
+
+dotnet_naming_symbols.symbol_private_members.applicable_kinds              = property,method,event,delegate
+dotnet_naming_symbols.symbol_private_members.applicable_accessibilities    = private
+dotnet_naming_rule.private_symbols_must_be_pascal_case_underscore.symbols  = symbol_private_members
+dotnet_naming_rule.private_symbols_must_be_pascal_case_underscore.style    = style_pascal_case_underscore
+dotnet_naming_rule.private_symbols_must_be_pascal_case_underscore.severity = warning
+
+# Style: class definitions ("MyClass")
+
+dotnet_naming_symbols.symbol_types.applicable_kinds     = class,struct,enum
+dotnet_naming_rule.types_must_be_pascal_case.symbols  = symbol_types
+dotnet_naming_rule.types_must_be_pascal_case.style    = style_pascal_case
+dotnet_naming_rule.types_must_be_pascal_case.severity = warning
+
+# Style: interface definitions ("IMyInterface")
+
+dotnet_naming_style.style_begins_with_i.capitalization  = pascal_case
+dotnet_naming_style.style_begins_with_i.required_prefix = I
+
+dotnet_naming_symbols.symbol_interface.applicable_kinds   = interface
+dotnet_naming_rule.interface_should_begin_with_i.symbols  = symbol_interface
+dotnet_naming_rule.interface_should_begin_with_i.style    = style_begins_with_i
+dotnet_naming_rule.interface_should_begin_with_i.severity = warning
+
+[**/Library/PackageCache/**/*.cs]
+# This hides all diagnostics from package files.
+generated_code = true
