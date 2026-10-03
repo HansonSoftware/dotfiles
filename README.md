@@ -22,11 +22,9 @@ Branch [macos](https://github.com/HansonSoftware/dotfiles/tree/macos) is used fo
 
 ## Programs
 
-**File Managers:** yazi, dolphin
+**File Manager:** n^3
 
-**Terminal Emulators:** Alacritty, kitty
-
-**Terminal Multiplexer:** tmux with TPM
+**Terminal Emulator:** Ghostty
 
 **Shell:** zsh with zinit
 
@@ -34,17 +32,7 @@ Branch [macos](https://github.com/HansonSoftware/dotfiles/tree/macos) is used fo
 
 **Git TUI:** lazygit
 
-**RSS Feed Reader:** newsboat
-
-**Spotify TUI:** spotify_player
-
-**Browsers:** brave, firefox with custom user.js based on [arkenfox](https://github.com/arkenfox/user.js)
-
-**+ More:** fzf, zoxide
-
-# Photo Gallery:
-
-The main theme I use is called [catppuccin](https://github.com/catppuccin/catppuccin) mocha.
+# Photo Gallery (old):
 
 ## Desktop
 
@@ -61,10 +49,3 @@ The main theme I use is called [catppuccin](https://github.com/catppuccin/catppu
 <img src="https://haydenhanson.dev/images/gallery/webWorkEnv.png"/>
 
 <img src="https://haydenhanson.dev/images/gallery/btop.png"/>
-
-### Shoutout to my inspriration(s):
-
-- [hyprdots](https://github.com/prasanthrangan/hyprdots) - Hyprland/Waybar scripts
-- [LARBS](https://larbs.xyz/) - DWM and other suckless programs, very lightweight (I don't use these programs, but the idealogy has stuck with me)
-- [dreamsofcode](https://www.youtube.com/watch?v=DzNmUNvnB04) - Zenful tmux config
-- [Josean's neovim config](https://github.com/josean-dev/dev-environment-files/) - My neovim directory is based on his
